@@ -1,0 +1,144 @@
+*{
+    margin:0;
+    padding:0;
+}
+// Color var
+
+//
+
+
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@700&display=swap');
+
+//
+
+::-webkit-scrollbar {
+    overflow: hidden;
+    display: none;
+}
+html {
+    scroll-behavior: smooth;
+html,
+body {
+    overflow-x: hidden;
+    height:auto;
+}
+
+//Stop
+body {
+    z-index: -1;
+    width:1920px;
+    // background: #171717;
+}
+
+.container{
+    .img-up{
+       img{
+        z-index: 0;
+        top:0%;
+        left:0%;
+        right:0%;
+        position: absolute;
+        width:100%;
+        height:500px;
+       }
+    }
+    .cells{
+        z-index: 15;
+        position: absolute;
+        display: grid;
+        grid-template-columns: 20em 20em;
+        grid-template-rows: 3em;
+        gap:3%;
+        margin-left: 3%;
+        margin-top:32%;
+        border-radius:2px;
+        -webkit-border-radius:2px;
+        -moz-border-radius:2px;
+        -ms-border-radius:2px;
+        -o-border-radius:2px;
+        -webkit-border-radius:2px;
+        .link{
+            cursor: pointer;
+            height: auto;
+            border: none;
+            height: 3em;
+            background: rgba(241, 191, 9, 0.76);
+
+            width: 20em;
+            h4{
+                font-style: normal; 
+                font-weight: 700; 
+                font-size: 1.3rem; 
+                color: #f1f1f1;
+                font-family: 'Raleway', sans-serif;
+                margin-top: 2.25%;
+                width:28em;
+                float: left;
+                margin-left:1em;
+            }
+        }
+        .link:hover{
+            background: #ac6a07f8;
+        }
+    }
+    .textBig-and-svgs{
+        z-index: 1;
+        .text { 
+            position: absolute; 
+            left: 0%; 
+            top: 0%; 
+            margin:22.2% 0% 0% 3%;
+            font-family: 'Raleway', sans-serif;
+            font-style: normal; 
+            font-size: 5rem; 
+            line-height: 113px; 
+            color: rgb(255, 255, 255); 
+            text-shadow: rgb(70, 70, 70) 0px 4px 17px; 
+        }
+        .svgArrow{
+            svg{
+                width:35em;
+                height:15em;
+                position: absolute;
+                float: right;
+                right:33% !important;
+                top:0%;
+                margin:19% 0% 0% 0%;
+            }
+        }
+        .tips{
+            .inline{     
+                margin-top: 28%;
+                position: absolute;
+                .section{
+                    display:inline-flex;
+                    margin-left: 10em;
+                    svg{
+                        width:2em;
+                        height:auto;
+                    }
+                    h3{
+                        color:#f1f1f1;
+                        font-family: 'Raleway', sans-serif;
+                        font-weight: 600;
+                        padding-left: 1em;
+                        padding-top: .25em;
+                    }
+                }
+            }
+        }
+    }     
+    
+    .img-right{
+        img{
+            width:30em;
+            height: auto;
+            position: absolute;
+            float:right;
+            right:23%;
+            top:65%
+        }
+    }
+}
+}

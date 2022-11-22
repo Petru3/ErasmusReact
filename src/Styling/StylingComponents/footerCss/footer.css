@@ -1,0 +1,122 @@
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.container footer {
+  display: block;
+  z-index: 15;
+  width: 1920px;
+  height: 400px;
+  background-color: #161616;
+  position: absolute;
+  top: 2700px;
+  box-shadow: 0px -6px 15px 5px rgba(0, 0, 0, 0.1843137255);
+}
+@-webkit-keyframes gradientHover {
+  0% {
+    text-shadow: -2px 1px 35px rgb(255, 255, 255);
+  }
+  30% {
+    text-shadow: -2px 1px 35px rgb(255, 239, 92);
+  }
+  50% {
+    text-shadow: -2px 1px 35px rgba(255, 255, 255, 0.87);
+  }
+  70% {
+    text-shadow: -2px 1px 35px rgba(5, 255, 192, 0.945);
+  }
+  100% {
+    text-shadow: -2px 1px 35px rgba(255, 255, 255, 0.911);
+  }
+}
+@keyframes gradientHover {
+  0% {
+    text-shadow: -2px 1px 35px rgb(255, 255, 255);
+  }
+  30% {
+    text-shadow: -2px 1px 35px rgb(255, 239, 92);
+  }
+  50% {
+    text-shadow: -2px 1px 35px rgba(255, 255, 255, 0.87);
+  }
+  70% {
+    text-shadow: -2px 1px 35px rgba(5, 255, 192, 0.945);
+  }
+  100% {
+    text-shadow: -2px 1px 35px rgba(255, 255, 255, 0.911);
+  }
+}
+.container footer .link-1 {
+  display: grid;
+  position: absolute;
+  grid-template-columns: 15%;
+  grid-template-rows: 175px 70px;
+  margin: 5% 0% 0% 5%;
+}
+.container footer .link-1 #imgUE {
+  width: 80%;
+  margin-left: 10%;
+  height: auto;
+}
+.container footer .link-1 h4 {
+  z-index: 6;
+  color: #fff;
+  font-family: "Raleway", sans-serif;
+  font-size: 1rem;
+  font-weight: 600;
+  top: 0%;
+  margin: 0% 0% 0% 2%;
+}
+.container footer #LogoImg {
+  width: 10%;
+  height: auto;
+  position: relative;
+  right: 0%;
+  float: right;
+  margin: 6% 5% 0% 0%;
+}
+.container footer ul {
+  position: relative;
+  margin-top: 12%;
+  margin-left: 26%;
+  z-index: 5;
+}
+.container footer ul li {
+  padding-left: 5%;
+  display: inline-flex;
+  text-align: center;
+}
+.container footer ul li a {
+  z-index: 6;
+  text-decoration: none;
+  color: #fff;
+  font-family: "Raleway", sans-serif;
+  font-size: 1rem;
+  font-weight: 600;
+  cursor: pointer;
+}
+.container footer ul li a:hover {
+  animation: gradientHover 4s ease infinite;
+  -webkit-animation: gradientHover 4s ease infinite;
+  -webkit-animation-delay: 0.1s;
+          animation-delay: 0.1s;
+  -webkit-text-decoration: underline solid #fff;
+          text-decoration: underline solid #fff;
+}
+.container footer #copyright {
+  position: absolute;
+  text-align: center;
+  z-index: 4;
+  left: 0%;
+  bottom: 2%;
+  margin-left: 31%;
+  width: 40%;
+  font-size: 1rem;
+  font-weight: 200;
+  font-family: "Raleway", sans-serif;
+  color: rgb(255, 255, 255);
+  opacity: 60%;
+  position: absolute;
+}/*# sourceMappingURL=footer.css.map */

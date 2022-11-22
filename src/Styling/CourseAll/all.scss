@@ -1,0 +1,59 @@
+*{
+    margin:0;
+    padding:0;
+}
+// Default
+::-webkit-scrollbar {
+    overflow: hidden;
+    display: none;
+}
+html {
+    scroll-behavior: smooth;
+    width:1920px;
+    height:1500px;
+}
+html,
+body {
+    background: #eee;
+    overflow-x: hidden;
+}
+// Importing fonts
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@700&display=swap');
+
+
+body{
+    width:100%;
+    height:1080px;
+}
+
+a{
+    h2{
+        position: relative;
+        z-index: 5;
+        margin: 10% 0% 0% 2%;
+        font-family: 'Raleway', sans-serif;
+        font-size: 2.2rem;
+        font-weight: 600;
+        color: rgb(14, 14, 14);
+
+      }
+      img{
+          z-index: 3;
+          width:100%;
+          border-radius: 10px 70px 10px 70px;
+          -webkit-border-radius: 10px 70px 10px 70px;
+          -moz-border-radius: 10px 70px 10px 70px;
+          -ms-border-radius: 10px 70px 10px 70px;
+          -o-border-radius: 10px 70px 10px 70px;
+        }
+}
+
+.courses{
+    justify-content: center;
+    padding: 200px 0px 0px 0px;
+    display: grid;
+    grid-template-columns: 400px 400px;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    gap: 50px;
+}
